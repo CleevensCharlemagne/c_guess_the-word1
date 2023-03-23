@@ -3,6 +3,6 @@
 
 int main()
 {
-    printf("Hello world!\n");
-    return 0;
+    char answer[] = "Apple";
+    char guess[30];
 }
