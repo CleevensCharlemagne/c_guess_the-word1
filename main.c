@@ -12,6 +12,8 @@ int main()
     printf("Welcome to Guessing Game!\n You get 3 tries to guess the fruit.\n Good luck!\n");
 
      while(guess != answer && outOfGuesses == 0){
+        if(guessCount < guessLimit){
 
+        }
     }
 }
