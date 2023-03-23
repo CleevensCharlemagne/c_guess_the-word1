@@ -7,4 +7,5 @@ int main()
     char guess[30];
     int guessCount = 0;
     int guessLimit = 3;
+    int outOfGuesses = 0;
 }
