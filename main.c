@@ -13,7 +13,9 @@ int main()
 
      while(guess != answer && outOfGuesses == 0){
         if(guessCount < guessLimit){
-
+            printf("\nEnter the name:");
+            scanf("%s", guess);
+            guessCount++;
         } else {
             outOfGuesses = 1;
         }
