@@ -8,4 +8,6 @@ int main()
     int guessCount = 0;
     int guessLimit = 3;
     int outOfGuesses = 0;
+
+    printf("Welcome to Guessing Game!\n You get 3 tries to guess the fruit.\n Good luck!\n");
 }
