@@ -23,5 +23,7 @@ int main()
 
      if(guess != answer){
         printf("You lose!");
+    } else {
+        printf("Congratulations! You win!");
     }
 }
