@@ -26,4 +26,6 @@ int main()
     } else {
         printf("Congratulations! You win!");
     }
+
+    return 0;
 }
