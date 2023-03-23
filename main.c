@@ -14,6 +14,8 @@ int main()
      while(guess != answer && outOfGuesses == 0){
         if(guessCount < guessLimit){
 
+        } else {
+            outOfGuesses = 1;
         }
     }
 }
