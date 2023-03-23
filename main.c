@@ -20,4 +20,8 @@ int main()
             outOfGuesses = 1;
         }
     }
+
+     if(guess != answer){
+        printf("You lose!");
+    }
 }
